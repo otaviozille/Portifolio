@@ -1,0 +1,18 @@
+/* Reset simples e profissional para projetos React */
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  display: block;         /* ✅ remove o flex do Vite */
+  min-height: 100vh;
+}
+
+/* garante que o app pode ocupar toda a largura */
+#root {
+  width: 100%;
+}
